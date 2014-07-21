@@ -174,7 +174,7 @@ footer {
     color: #999;
     height: 35px;
 }
-#credit, #github {
+#credit, #github, #facebook, #twitter {
     display: inline-block;
     padding-top: 8px;
     padding-right: 10px;
@@ -196,3 +196,41 @@ footer {
         font-size: 10px;
     }
 }
+       .vi {
+            position: absolute;
+            left: 10px;
+            top: 350px;
+            width: 496px;
+            height: 375px;
+        }
+        .tp {
+            background-image: url(../images/header480x60.png); 
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            width: 480px;
+            height: 60px;
+            /*background-color: rgba(80, 80, 80, 0.3);*/
+            background-repeat: no-repeat;
+        }
+
+        .sc {
+            position: absolute;
+            left: 10px;
+            top: 100px;
+            width: 150px;
+            height: 325px;
+        }
+
+        .tx {
+            position: absolute;
+            left: 10px;
+            top: 60px;
+            width: 400px;
+            height: 360px;
+            color: rgb(200, 100, 250);
+            background-color: rgba(80, 40, 80, 0.7);
+            text-align: justify;
+            font-size: 16px;
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Sans-Serif;
+        }

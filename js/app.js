@@ -437,7 +437,7 @@ var Visualizer = function() {
  */
 var SoundcloudLoader = function(player,uiUpdater) {
     var self = this;
-    var client_id = "YOUR_SOUNDCLOUD_CLIENT_ID"; // to get an ID go to http://developers.soundcloud.com/
+    var client_id = "35de6fe71a26e852e6e3526484461b"; // to get an ID go to http://developers.soundcloud.com/
     this.sound = {};
     this.streamUrl = "";
     this.errorMessage = "";
@@ -623,6 +623,10 @@ window.onload = function init() {
     if (window.location.hash) {
         var trackUrl = 'https://soundcloud.com/' + window.location.hash.substr(1);
         loadAndUpdate(trackUrl);
+    }
+    else
+    {
+        loadAndUpdate('https://soundcloud.com/batchass/sets/batchass');
     }
 
     // handle the form submit event to load the new URL
